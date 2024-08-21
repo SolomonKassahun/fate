@@ -5,8 +5,9 @@ A new Flutter project.
 ## Getting Started
 
 ## Run Server 
-- [Change your folder to db](step 1)
-- [Change your folder to db](step 1)
+- Step 1: run "npm install json-server"
+- Step 2: Change your  to db and run "npx json-server db.json"
+
 
 This project is a starting point for a Flutter application.
 
