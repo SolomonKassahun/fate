@@ -8,7 +8,7 @@ class RestaurantsService {
   // 
  String userUrl = 'http://localhost:3000/data';
 
-  Future<List<RestaurantsModel>> getUsers() async {
+  Future<List<RestaurantsModel>> getResutrant() async {
     final response = await http.get(Uri.parse(userUrl));
     print("the status code is ${response.statusCode} ${jsonDecode(response.body)}");
    try {
